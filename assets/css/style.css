@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+/* todo lo comun */
+/* vars */
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* fondos */
+.bg-pink {
+  background-color: rgb(10, 120, 255);
+  color: white;
+}
+
+h1, h2, h3 {
+  color: rgb(10, 120, 255);
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+/* inicia nav */
+.botonera {
+  background-color: rgb(10, 120, 255);
+}
+.botonera img {
+  width: 150px;
+}
+.botonera a {
+  color: white;
+}
+.botonera svg {
+  width: 30px;
+  fill: white;
+}
+
+.filters button {
+  border: none;
+  background-color: rgb(10, 120, 255);
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+.filters button svg {
+  width: 30px;
+  fill: white;
+}
+.filters input {
+  border-radius: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
