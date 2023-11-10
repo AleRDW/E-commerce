@@ -41,6 +41,20 @@ h3 {
   width: 30px;
   fill: white;
 }
+.botonera .num-cart {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%;
+  color: rgb(10, 120, 255);
+  display: block;
+  border: solid black 1px;
+  transform: translate(10px, -30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5em;
+}
 
 .filters button {
   border: none;
@@ -54,6 +68,36 @@ h3 {
 }
 .filters input {
   border-radius: 8px;
+}
+
+.cart-items img {
+  width: 100%;
+  border-radius: 8px;
+}
+.cart-items h4 {
+  font-size: 1em;
+  color: black;
+}
+.cart-items .price {
+  color: black;
+  font-weight: 500;
+}
+.cart-items button {
+  border: none;
+  background-color: transparent;
+}
+.cart-items button svg {
+  width: 30px;
+  fill: rgb(10, 120, 255);
+}
+.cart-items .cart {
+  color: grey;
+}
+
+.total-price {
+  font-size: 1.1em;
+  color: black;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
